@@ -1,0 +1,57 @@
+.moviesList{
+    width: 82%;
+    margin: 2% auto 2% auto;
+}
+
+.moviesListView{
+    width: 98%;
+    border-spacing: 0;
+    border-radius: 5px;  
+    box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
+
+.moviesListViewHeaders{
+    color: white;
+    background-color: #3cc3dd !important;
+    height: 56px;
+}
+
+.listviewDataRow{
+    height: 48px;
+}
+.listviewDataRow:hover{
+    cursor: pointer !important;
+    background-color: rgba(60, 195, 221, 0.1) !important;
+    font-weight: bold !important;
+}
+
+.listviewDataCell{
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,.12);
+}
+.searchRow{
+    width: 82%;
+    margin: 2% auto 2% auto;
+}
+.searchForm{
+    width: 98%;
+}
+.section{
+    height: 48px;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.moduleName{
+    font-weight: 500;
+}
+.iconSidebar{
+    color: #3cc3dd;
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+}
